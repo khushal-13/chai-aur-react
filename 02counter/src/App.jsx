@@ -17,6 +17,9 @@ function App() {
     if(count > 0) {
       setCounter(count-1)
     }
+    else{
+      alert('Aur kitna ghatayega..!!')
+    }
   }
 
   return (
